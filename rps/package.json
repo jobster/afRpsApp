@@ -2,9 +2,12 @@
   "name": "rps",
   "version": "0.0.0",
   "main": "src/rps.js",
-  "files": ["src/"],
+  "files": [
+    "src/"
+  ],
   "devDependencies": {
-    "jasmine-node": "latest",
+    "mocha": "latest",
+    "chai": "latest",
     "uuid": "latest"
   }
 }
