@@ -7,9 +7,13 @@
     "react-dom": "latest"
   },
   "devDependencies": {
+    "browserify": "latest",
     "babelify": "latest",
+    "babel-core": "latest",
     "babel-preset-es2015": "latest",
-    "babel-preset-react": "latest"
+    "babel-preset-react": "latest",
+    "mocha": "latest",
+    "chai": "latest"
   },
   "scripts": {
     "compile": "browserify main.js -o compiled_main.js -t [ babelify --presets [ es2015 react ] ]"
